@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0); /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(100, 200, 225, 1));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient(bottom,rgba(0, 0, 0, 0), rgba(100, 200, 225, 1));
+    /* For Fx 3.6 to 15 */
+    background: -moz-linear-gradient(bottom,rgba(0, 0, 0, 0), rgba(100,200, 225, 1));
+    /* Standard syntax */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(100, 200, 225, 1));
+}
+.MainHeader{
+    font-size: 16px;
+    position: relative;
+    max-width: 100%;
+}
+.MainHeaderNav{
+    padding: 5px;
+    position: relative;
+    max-width: 100% !important;
+    align-content: center;
+}
+.MainHeaderNavButton{
+    position: relative;
+    max-width: 100%
+}
+.MainHeaderNavButton li{
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: rgba(100, 200, 225, 1);
+    max-width: 100%;
+
+}
+.MainHeaderNavButton a li{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    max-width: 100%;
+    
+}
+.MainContent{
+    position: relative;
+    max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.Content1{
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid white;
+}
+.Content1 a{
+    
+}
+.Content2{
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid white;
+}
+.Content3{
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid white;
+}
+.Content4{
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid white;
+}
+.MainFooter{
+    position: relative;
+    text-align: center;
+    padding-bottom: 32px;
+    padding-top: 32px;   
+}
