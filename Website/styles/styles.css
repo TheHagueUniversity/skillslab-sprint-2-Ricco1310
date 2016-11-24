@@ -15,7 +15,6 @@ body{
     background-repeat: no-repeat;
 }
 .MainHeader{
-    font-size: 16px;
     position: relative;
     max-width: 100%;
     max-height: 20%;
@@ -45,52 +44,76 @@ body{
     display: inline-block;
     list-style-type: none;
     border: 1px solid white;
-    padding: 50px;
+    padding: 3%;
     background-color: rgba(100, 200, 225, 1);
     max-width: 100%;
-    font-size: 2rem;
-    margin-left: 3px;
-    margin-right: 3px;
+    font-size: 150%;
+    /*margin-left: 3px;*/
+    margin-right: 1%;
 }
+/*@media screen and (min-width:800px){
+    .MainHeaderNavButton li{
+        font-size: 200%;
+    }
+}*/
 .MainHeaderNavButton li:hover{
-    position: relative;
-    display: inline-block;
-    list-style-type: none;
-    border: 1px solid yellow;
-    padding: 50px;
-    background-color: rgba(100, 200, 225, 1);
-    max-width: 100%;
     text-decoration: underline;
 }
 .MainHeaderNavButton .active li{
-    position: relative;
-    display: inline-block;
-    list-style-type: none;
-    border: 1px solid pink;
-    padding: 50px;
-    background-color: rgba(100, 200, 225, 1);
-    max-width: 100%;
-    font-style: underline;
+    background: rgba(0, 0, 0, 0); /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient(bottom,rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
+    /* For Fx 3.6 to 15 */
+    background: -moz-linear-gradient(bottom,rgba(0, 0, 255, 0.1), rgba(100,200, 225, 1));
+    /* Standard syntax */
+    background: linear-gradient(to top, rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
+    background-repeat: no-repeat;
     font-weight: bold;
 }
 .MainHeaderNavButton .active li:hover{
-    position: relative;
-    display: inline-block;
-    list-style-type: none;
-    border: 1px solid yellow;
-    padding: 50px;
-    background-color: rgba(100, 200, 225, 1);
-    max-width: 100%;
+    background: rgba(0, 0, 0, 0); /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient(bottom,rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
+    /* For Fx 3.6 to 15 */
+    background: -moz-linear-gradient(bottom,rgba(0, 0, 255, 0.1), rgba(100,200, 225, 1));
+    /* Standard syntax */
+    background: linear-gradient(to top, rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
+    background-repeat: no-repeat;
     text-decoration: underline;
 }
 .MainHeaderNavButton a li{
     text-decoration: none;
     color: white;
     text-align: center;
-    padding: 50px;
+    padding: 3%;
     max-width: 100%;
-    
 }
+/*@media screen and (max-width: 480px){
+    .MainHeaderNav{
+        text-align: center;
+        margin: auto;
+    }
+    .MainHeaderNavButton li{
+        display: block;
+    }
+    .MainHeaderNavButton li:hover{
+        display: block;
+    }
+    .MainHeaderNavButton .active li{
+        display: block;
+    }
+    .MainHeaderNavButton .active li:hover{
+        display: block;
+    }
+    .MainHeaderNavButton a li{
+        text-decoration: none;
+        text-align: center;
+    }
+}*/
 .MainContent{
     position: relative;
     max-width: 100%;
@@ -102,27 +125,32 @@ body{
     position: relative;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 1%;
     border: 1px solid white;
 }
-.Content1 a{
-    
+.contact{
+    text-align: center;
+   
 }
 .Content2{
     position: relative;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 1%;
     border: 1px solid white;
 }
 .Content3{
     position: relative;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 1%;
     border: 1px solid white;
 }
 .Content4{
     position: relative;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 1%;
     border: 1px solid white;
 }
 .MainFooter{
@@ -130,4 +158,22 @@ body{
     text-align: center;
     padding-bottom: 32px;
     padding-top: 32px;   
+}
+.inline33{
+    position: relative;
+    display: inline-block;
+    max-width: 33%;
+}
+.PriceTable{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.PriceTable td{
+    border: 1px solid white;
+}
+.DecorationImage{
+    position: relative;
+    max-width: 30%;
+    display: inline-block;
+    margin: auto;
 }
