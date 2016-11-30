@@ -121,37 +121,22 @@ body{
     padding-right: 5%;
     display: block;
 }
-.Content1{
+.content{
+    display: block;
+}
+Section{
     position: relative;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 1%;
     border: 1px solid white;
+    overflow: auto;
+    clear: left;
+
 }
 .contact{
     text-align: center;
    
-}
-.Content2{
-    position: relative;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 1%;
-    border: 1px solid white;
-}
-.Content3{
-    position: relative;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 1%;
-    border: 1px solid white;
-}
-.Content4{
-    position: relative;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 1%;
-    border: 1px solid white;
 }
 .MainFooter{
     position: relative;
@@ -173,7 +158,13 @@ body{
 }
 .DecorationImage{
     position: relative;
-    max-width: 30%;
-    display: inline-block;
-    margin: auto;
+    max-width: 20%;
+    display: block;
+    float: right;
+    margin-left: 10%;
+}
+.RightAlign{
+    position: relative;
+    margin-left: 0%;
+    display: block;
 }
