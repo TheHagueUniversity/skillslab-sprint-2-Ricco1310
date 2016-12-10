@@ -14,41 +14,41 @@ body{
     background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(100, 200, 225, 1));
     background-repeat: no-repeat;
 }
-.MainHeader{
-    position: relative;
+.MainHeader {
     max-width: 100%;
-    max-height: 20%;
-    border-bottom: 3px solid white;
+    border-bottom: 5px solid white;
     margin-bottom: 1%;
-}
-.MainHeader img{
-    width: 10%;
     display: block;
-    float: right;
-    position: relative;
-    margin-right: 9%;
+    overflow: auto;
 }
-.MainHeaderNav{
-    margin-left: 7%;
-    padding: 5px;
+.MainHeader img {
+    display: block;
+    max-width: 100%;
     position: relative;
-    max-width: 100% !important;
-    align-content: center;
+    margin: 0;
 }
+.MainHeader figure {
+    float: left;
+    width: 15%;
+    position: relative;
+    margin: 0 5%;
+    padding: 0;
+}
+.MainHeaderNav {
+    margin: 5% 0;
+}
+
 .MainHeaderNavButton{
-    position: relative;
-    max-width: 100%;
 }
-.MainHeaderNavButton li{
-    position: relative;
+.MainHeaderNavButton li {
+    overflow: auto;
     display: inline-block;
+    position: relative;
     list-style-type: none;
-    border: 1px solid white;
-    padding: 3%;
+    border: 2px solid white;
+    padding: 1%;
     background-color: rgba(100, 200, 225, 1);
-    max-width: 100%;
     font-size: 150%;
-    /*margin-left: 3px;*/
     margin-right: 1%;
 }
 /*@media screen and (min-width:800px){
@@ -71,6 +71,7 @@ body{
     background: linear-gradient(to top, rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
     background-repeat: no-repeat;
     font-weight: bold;
+    letter-spacing: -1px;
 }
 .MainHeaderNavButton .active li:hover{
     background: rgba(0, 0, 0, 0); /* For browsers that do not support gradients */
@@ -84,13 +85,19 @@ body{
     background: linear-gradient(to top, rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
     background-repeat: no-repeat;
     text-decoration: underline;
+    letter-spacing: -1px;
 }
-.MainHeaderNavButton a li{
+.largeTexts{
+    letter-spacing: -2px;
+}
+.largeTexts:hover{
+    letter-spacing: -2px;
+}
+.MainHeaderNavButton a li {
     text-decoration: none;
     color: white;
     text-align: center;
     padding: 3%;
-    max-width: 100%;
 }
 /*@media screen and (max-width: 480px){
     .MainHeaderNav{
@@ -129,20 +136,25 @@ Section{
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 1%;
-    border: 1px solid white;
+    border: 2px solid white;
     overflow: auto;
     clear: left;
 
 }
 .contact{
     text-align: center;
-   
 }
 .MainFooter{
     position: relative;
     text-align: center;
     padding-bottom: 32px;
     padding-top: 32px;   
+}
+.MainFooter figure{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 5%;
 }
 .inline33{
     position: relative;

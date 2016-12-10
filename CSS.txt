@@ -1,0 +1,67 @@
+.MainHeader {
+    position: relative;//
+    max-width: 100%;
+    max-height: 20%;//
+    border-bottom: 3px solid white;
+    margin-bottom: 1%;
+    display: block;
+    overflow: auto;
+}
+.MainHeader h1 {
+    float: left;
+    width: 25%;
+    position: relative;
+    margin-left: 3em;
+}
+
+.MainHeader img {
+    display: block;
+    max-width: 100%;
+    position: relative;
+}
+
+.MainHeaderNav {
+    padding: 1px;//
+    position: relative;//
+    width: 100% !important;//
+    align-content: center;//
+    float: left;//
+    margin: 9em 0;
+}
+
+.MainHeaderNavButton {
+    position: relative;//
+    width: 100%;//
+}
+
+.MainHeaderNavButton .active li {
+    background: rgba(0, 0, 0, 0);
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
+    background: -o-linear-gradient(bottom,rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
+    background: -moz-linear-gradient(bottom,rgba(0, 0, 255, 0.1), rgba(100,200, 225, 1));
+    background: linear-gradient(to top, rgba(0, 0, 255, 0.1), rgba(100, 200, 225, 1));
+    background-repeat: no-repeat;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.MainHeaderNavButton a li {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 3%;
+    max-width: 100%;//
+}
+
+.MainHeaderNavButton li {
+    position: relative;
+    float: left;//
+    list-style-type: none;
+    border: 1px solid white;
+    padding: 1%;
+    background-color: rgba(100, 200, 225, 1);
+    max-width: 100%;//
+    font-size: 150%;
+    margin-left: 3px;//
+    margin-right: 1%;
+}
