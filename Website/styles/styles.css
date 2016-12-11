@@ -34,11 +34,13 @@ body{
     margin: 0 5%;
     padding: 0;
 }
+@media screen and (max-width:800px){
+    .MainHeader figure{
+        float: none;
+    }
+}
 .MainHeaderNav {
     margin: 5% 0;
-}
-
-.MainHeaderNavButton{
 }
 .MainHeaderNavButton li {
     overflow: auto;
@@ -51,11 +53,6 @@ body{
     font-size: 150%;
     margin-right: 1%;
 }
-/*@media screen and (min-width:800px){
-    .MainHeaderNavButton li{
-        font-size: 200%;
-    }
-}*/
 .MainHeaderNavButton li:hover{
     text-decoration: underline;
 }
@@ -99,28 +96,6 @@ body{
     text-align: center;
     padding: 3%;
 }
-/*@media screen and (max-width: 480px){
-    .MainHeaderNav{
-        text-align: center;
-        margin: auto;
-    }
-    .MainHeaderNavButton li{
-        display: block;
-    }
-    .MainHeaderNavButton li:hover{
-        display: block;
-    }
-    .MainHeaderNavButton .active li{
-        display: block;
-    }
-    .MainHeaderNavButton .active li:hover{
-        display: block;
-    }
-    .MainHeaderNavButton a li{
-        text-decoration: none;
-        text-align: center;
-    }
-}*/
 .MainContent{
     position: relative;
     max-width: 100%;
@@ -144,6 +119,12 @@ Section{
 .contact{
     text-align: center;
 }
+.contact input:focus{
+    background-color: lightskyblue;
+}
+.contact textarea:focus{
+    background-color: lightskyblue;
+}
 .MainFooter{
     position: relative;
     text-align: center;
@@ -159,7 +140,7 @@ Section{
 .inline33{
     position: relative;
     display: inline-block;
-    max-width: 33%;
+    max-width: 32%;
 }
 .PriceTable{
     padding-top: 1%;
@@ -175,8 +156,6 @@ Section{
     float: right;
     margin-left: 10%;
 }
-.RightAlign{
-    position: relative;
-    margin-left: 0%;
-    display: block;
+.BlueBorder img{
+    border: 2px solid darkblue;
 }
